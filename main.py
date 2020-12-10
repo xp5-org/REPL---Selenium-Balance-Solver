@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import UnexpectedAlertPresentException
 
 
-
+# Options, disable headless mode here
 chrome_options = Options()
 chrome_options.add_argument('--no-sandbox')
 # chrome_options.add_argument('--headless')     # uncomment this to go headless, makes it faster
@@ -15,9 +15,9 @@ url = 'http://ec2-54-208-152-154.compute-1.amazonaws.com/'
 
 
 
-# Options, disable headless mode here
+
 chrome_options = Options()
-chrome_options.add_argument('--headless')   # comment this line out to get browser GUI
+
 
 
 # static init stuff, game looks like this
